@@ -1,8 +1,8 @@
 package test1
 
 import (
-	"poker/tool"
-	"poker/utils"
+	"github.com/superyyk/baogai/tool"
+	"github.com/superyyk/baogai/utils"
 
 	"github.com/gin-gonic/gin"
 )

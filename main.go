@@ -1,9 +1,9 @@
 package main
 
 import (
-	"poker/config"
-	"poker/route"
-	"poker/websocket"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/route"
+	"github.com/superyyk/baogai/websocket"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

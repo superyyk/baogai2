@@ -2,13 +2,13 @@ package utils
 
 import (
 	"fmt"
-	"poker/model"
-	"poker/tool"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
 	"net/http"
 	"os"
 	"path"
-	"poker/config"
-	"poker/db"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/db"
 	"strconv"
 	"time"
 

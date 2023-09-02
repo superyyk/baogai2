@@ -1,8 +1,8 @@
 package api
 
 import (
-	"poker/db"
-	"poker/tool"
+	"github.com/superyyk/baogai/db"
+	"github.com/superyyk/baogai/tool"
 
 	"github.com/gin-gonic/gin"
 )

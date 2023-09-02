@@ -3,8 +3,9 @@ package tool
 import (
 	"fmt"
 
-	"poker/config"
 	"time"
+
+	"github.com/superyyk/baogai/config"
 
 	"github.com/nsqio/go-nsq"
 )

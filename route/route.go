@@ -2,14 +2,15 @@ package route
 
 import (
 	"log"
-	"poker/admin"
-	"poker/api"
-	"poker/cors"
-	"poker/middlewares"
-	"poker/redis"
-	"poker/test1"
-	"poker/tool"
-	"poker/utils"
+
+	"github.com/superyyk/baogai/admin"
+	"github.com/superyyk/baogai/api"
+	"github.com/superyyk/baogai/cors"
+	"github.com/superyyk/baogai/middlewares"
+	"github.com/superyyk/baogai/redis"
+	"github.com/superyyk/baogai/test1"
+	"github.com/superyyk/baogai/tool"
+	"github.com/superyyk/baogai/utils"
 
 	"github.com/gin-gonic/gin"
 )

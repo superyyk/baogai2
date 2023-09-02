@@ -3,8 +3,8 @@ package utils
 import (
 	"fmt"
 	"os"
-	"poker/config"
-	"poker/model"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/model"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"

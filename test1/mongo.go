@@ -3,9 +3,10 @@ package test1
 import (
 	"context"
 	"log"
-	"poker/db"
-	"poker/tool"
-	"poker/utils"
+
+	"github.com/superyyk/baogai/db"
+	"github.com/superyyk/baogai/tool"
+	"github.com/superyyk/baogai/utils"
 
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"

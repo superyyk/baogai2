@@ -4,8 +4,9 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"poker/config"
-	"poker/model"
+
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/model"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/jinzhu/gorm"
@@ -55,8 +56,8 @@ func DbConn(Username, Password, Host, Db string, Port int) *gorm.DB {
 
 func RedisInit() {
 	MyRedis = redis.NewClient(&redis.Options{
-		Addr:     config.Redis.Host,
-		
+		Addr: config.Redis.Host,
+
 		Password: config.Redis.Password, // no password set
 		DB:       config.Redis.DB,       // use default DB
 	})

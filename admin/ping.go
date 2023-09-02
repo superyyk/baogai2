@@ -1,10 +1,10 @@
 package admin
 
 import (
-	"poker/db"
-	"poker/model"
-	"poker/tool"
-	"poker/utils"
+	"github.com/superyyk/baogai/db"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
+	"github.com/superyyk/baogai/utils"
 
 	"github.com/gin-gonic/gin"
 )

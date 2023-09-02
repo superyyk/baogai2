@@ -1,8 +1,8 @@
 package api
 
 import (
-	"poker/model"
-	"poker/tool"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
 	"time"
 
 	"github.com/gin-gonic/gin"

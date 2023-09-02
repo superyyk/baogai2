@@ -2,8 +2,8 @@ package utils
 
 import (
 	"fmt"
-	"poker/model"
-	"poker/tool"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
 
 	"time"
 

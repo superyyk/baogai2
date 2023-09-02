@@ -2,9 +2,9 @@ package api
 
 import (
 	"encoding/json"
-	"poker/model"
-	"poker/tool"
-	"poker/utils"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
+	"github.com/superyyk/baogai/utils"
 	"regexp"
 	"time"
 

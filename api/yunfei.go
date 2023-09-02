@@ -2,9 +2,9 @@ package api
 
 import (
 	"flag"
-	"poker/model"
-	"poker/redis"
-	"poker/tool"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/redis"
+	"github.com/superyyk/baogai/tool"
 	"strconv"
 	"time"
 

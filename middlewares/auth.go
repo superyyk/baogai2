@@ -3,10 +3,11 @@ package middlewares
 import (
 	"fmt"
 	"net/http"
-	"poker/config"
-	"poker/redis"
 	"strings"
 	"time"
+
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/redis"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"

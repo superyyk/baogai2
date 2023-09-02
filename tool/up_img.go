@@ -9,13 +9,14 @@ import (
 	"net/http"
 	"os"
 	"path"
-	"poker/config"
-	"poker/db"
-	"poker/model"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/db"
+	"github.com/superyyk/baogai/model"
 
 	"github.com/gin-gonic/gin"
 	//imgtype "github.com/shamsher31/goimgtype"

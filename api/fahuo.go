@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
-	"poker/config"
-	"poker/model"
-	"poker/tool"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
 	"strings"
 	"time"
 

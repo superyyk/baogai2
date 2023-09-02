@@ -1,8 +1,8 @@
 package admin
 
 import (
-	"poker/config"
-	"poker/tool"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/tool"
 	"strings"
 
 	"github.com/gin-gonic/gin"

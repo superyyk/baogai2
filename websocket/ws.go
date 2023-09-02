@@ -5,10 +5,11 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"poker/model"
-	"poker/redis"
-	"poker/tool"
 	"sync"
+
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/redis"
+	"github.com/superyyk/baogai/tool"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
