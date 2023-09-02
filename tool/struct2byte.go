@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/yishougai/model"
 )
 
 type Req struct {

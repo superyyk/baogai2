@@ -1,10 +1,10 @@
 package admin
 
 import (
-	"github.com/superyyk/baogai/db"
-	"github.com/superyyk/baogai/model"
-	"github.com/superyyk/baogai/tool"
-	"github.com/superyyk/baogai/utils"
+	"github.com/superyyk/yishougai/db"
+	"github.com/superyyk/yishougai/model"
+	"github.com/superyyk/yishougai/tool"
+	"github.com/superyyk/yishougai/utils"
 
 	"github.com/gin-gonic/gin"
 )

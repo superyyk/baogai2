@@ -2,13 +2,13 @@ package utils
 
 import (
 	"fmt"
-	"github.com/superyyk/baogai/model"
-	"github.com/superyyk/baogai/tool"
+	"github.com/superyyk/yishougai/model"
+	"github.com/superyyk/yishougai/tool"
 	"net/http"
 	"os"
 	"path"
-	"github.com/superyyk/baogai/config"
-	"github.com/superyyk/baogai/db"
+	"github.com/superyyk/yishougai/config"
+	"github.com/superyyk/yishougai/db"
 	"strconv"
 	"time"
 

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/superyyk/baogai/config"
-	"github.com/superyyk/baogai/route"
-	"github.com/superyyk/baogai/websocket"
+	"github.com/superyyk/yishougai/config"
+	"github.com/superyyk/yishougai/route"
+	"github.com/superyyk/yishougai/websocket"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

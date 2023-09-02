@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/superyyk/baogai/config"
-	"github.com/superyyk/baogai/db"
-	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/yishougai/config"
+	"github.com/superyyk/yishougai/db"
+	"github.com/superyyk/yishougai/model"
 
 	"github.com/gin-gonic/gin"
 	//imgtype "github.com/shamsher31/goimgtype"

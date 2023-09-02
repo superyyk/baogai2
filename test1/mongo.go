@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/superyyk/baogai/db"
-	"github.com/superyyk/baogai/tool"
-	"github.com/superyyk/baogai/utils"
+	"github.com/superyyk/yishougai/db"
+	"github.com/superyyk/yishougai/tool"
+	"github.com/superyyk/yishougai/utils"
 
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson"
