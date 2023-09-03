@@ -3,11 +3,11 @@ package api
 import (
 	"encoding/json"
 	"errors"
-	"github.com/superyyk/yishougai/config"
-	"github.com/superyyk/yishougai/db"
-	"github.com/superyyk/yishougai/model"
-	"github.com/superyyk/yishougai/tool"
-	"github.com/superyyk/yishougai/utils"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/db"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
+	"github.com/superyyk/baogai/utils"
 	"regexp"
 	"time"
 

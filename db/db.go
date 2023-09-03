@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/superyyk/yishougai/config"
-	"github.com/superyyk/yishougai/model"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/model"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/jinzhu/gorm"

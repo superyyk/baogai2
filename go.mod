@@ -1,4 +1,4 @@
-module github.com/superyyk/yishougai
+module github.com/superyyk/baogai
 
 go 1.20
 

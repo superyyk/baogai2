@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/superyyk/yishougai/db"
-	"github.com/superyyk/yishougai/tool"
+	"github.com/superyyk/baogai/db"
+	"github.com/superyyk/baogai/tool"
 
 	"github.com/gin-gonic/gin"
 )

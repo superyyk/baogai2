@@ -2,9 +2,9 @@ package api
 
 import (
 	"flag"
-	"github.com/superyyk/yishougai/model"
-	"github.com/superyyk/yishougai/redis"
-	"github.com/superyyk/yishougai/tool"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/redis"
+	"github.com/superyyk/baogai/tool"
 	"strconv"
 	"time"
 

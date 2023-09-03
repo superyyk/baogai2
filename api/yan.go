@@ -2,9 +2,9 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/superyyk/yishougai/model"
-	"github.com/superyyk/yishougai/tool"
-	"github.com/superyyk/yishougai/utils"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
+	"github.com/superyyk/baogai/utils"
 	"regexp"
 	"time"
 

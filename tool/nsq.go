@@ -5,7 +5,7 @@ import (
 
 	"time"
 
-	"github.com/superyyk/yishougai/config"
+	"github.com/superyyk/baogai/config"
 
 	"github.com/nsqio/go-nsq"
 )

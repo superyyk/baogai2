@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/superyyk/yishougai/config"
-	"github.com/superyyk/yishougai/redis"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/redis"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"

@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
-	"github.com/superyyk/yishougai/config"
-	"github.com/superyyk/yishougai/model"
-	"github.com/superyyk/yishougai/tool"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
 	"strings"
 	"time"
 

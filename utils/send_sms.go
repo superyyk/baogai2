@@ -3,10 +3,10 @@ package utils
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/superyyk/yishougai/config"
-	"github.com/superyyk/yishougai/db"
-	"github.com/superyyk/yishougai/model"
-	"github.com/superyyk/yishougai/tool"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/db"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
 	"time"
 
 	"github.com/gin-gonic/gin"

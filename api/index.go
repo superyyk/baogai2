@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"math/rand"
-	"github.com/superyyk/yishougai/model"
-	"github.com/superyyk/yishougai/tool"
+	"github.com/superyyk/baogai/model"
+	"github.com/superyyk/baogai/tool"
 	"time"
 
 	"github.com/gin-gonic/gin"

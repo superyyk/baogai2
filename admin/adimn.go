@@ -1,8 +1,8 @@
 package admin
 
 import (
-	"github.com/superyyk/yishougai/config"
-	"github.com/superyyk/yishougai/tool"
+	"github.com/superyyk/baogai/config"
+	"github.com/superyyk/baogai/tool"
 	"strings"
 
 	"github.com/gin-gonic/gin"
