@@ -273,6 +273,7 @@ type Version struct {
 	T_2       int    `gorm:"column:t_2" json:"t_2"`
 	M_1       int    `gorm:"column:m_1" json:"m_1"`
 	M_2       int    `gorm:"column:m_2" json:"m_2"`
+	Is_vip    int    `gorm:"column:is_vip" json:"is_vip"`
 }
 
 type RuKuInfo struct {
@@ -312,6 +313,7 @@ type Pub struct {
 	T_2       int    `gorm:"column:t_2" json:"t_2"`
 	M_1       int    `gorm:"column:m_1" json:"m_1"`
 	M_2       int    `gorm:"column:m_2" json:"m_2"`
+	Is_vip    int    `gorm:"column:is_vip" json:"is_vip"`
 }
 
 type TuiguangUrls struct {

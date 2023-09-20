@@ -2,11 +2,12 @@ package api
 
 import (
 	"flag"
+	"strconv"
+	"time"
+
 	"github.com/superyyk/baogai/model"
 	"github.com/superyyk/baogai/redis"
 	"github.com/superyyk/baogai/tool"
-	"strconv"
-	"time"
 
 	"github.com/gin-gonic/gin"
 )
@@ -348,7 +349,7 @@ func TestMysql(c *gin.Context) {
 		rdb.Set(ip_key, "1", time.Hour*24) //一小时内访问超5次
 	}
 	ctn1, _ := strconv.ParseInt(ctn, 10, 64)
-	if ctn1 <= 500 {
+	if ctn1 <= 5 {
 		pipe := rdb.TxPipeline()
 		pipe.Incr(ip_key) //累加+1
 		err := pipe.LPush(ip, v).Err()

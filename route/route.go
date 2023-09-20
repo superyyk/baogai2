@@ -67,7 +67,7 @@ func NewRoute() *gin.Engine {
 		log.Fatal(err)
 	}
 	user1.Use(cors.Cors())
-	user1.Use(middlewares.RateMiddleware(limiter, 5000, 1)) // 如果ip请求连接数在两秒内超过5次，返回429并抛出error
+	user1.Use(middlewares.RateMiddleware(limiter, 3, 1)) // 如果ip请求连接数在两秒内超过5次，返回429并抛出error
 	user1.Use(middlewares.Auth())
 
 	{
