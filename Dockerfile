@@ -12,6 +12,6 @@ RUN go mod download
 
 RUN go build main.go
 
-EXPOSE 8080 # 你项目运行的端口
+EXPOSE 39700 # 你项目运行的端口
 
 ENTRYPOINT  ["./main"] # 运行你项目的命令
